@@ -22,9 +22,12 @@ Can machine learning models identify individuals at risk for Type 2 diabetes, ob
 - DBSCAN
 - Hierarchical Agglomerative Clustering
 ## Key Results
+- Compared 11 machine learning algorithms across three healthcare datasets.
+- Random Forest identified BMI and Income as important nonlinear predictors of diabetes risk
 - Gradient Boosting achieved the strongest overall supervised performance.
 - K-Means identified meaningful clusters in the Obesity and Heart Disease datasets.
 - Across multiple supervised models, the CDC Diabetes dataset consistently plateaued near a macro F1 score of 0.40, suggesting limitations in the available survey-based features rather than the algorithms themselves.
+- Results across multiple supervised models demonstrated consistent performance trends, providing evidence that feature quality had a greater impact than algorithm selection for the diabetes datase.
 ## Technologies
 - Python
 - pandas
